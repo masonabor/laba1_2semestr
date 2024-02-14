@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+<!--    <servlet>-->
+<!--        <servlet-name>yuriServlet</servlet-name>-->
+<!--        <servlet-class>com.example.webtest2.YuriiServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>yuriServlet</servlet-name>-->
+<!--        <url-pattern>/yuriServlet</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    <servlet>-->
+<!--        <servlet-name>vitaliiServlet</servlet-name>-->
+<!--        <servlet-class>com.example.webtest2.VitaliiServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>vitaliiServlet</servlet-name>-->
+<!--        <url-pattern>/vitaliiServlet</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    <servlet>-->
+<!--        <servlet-name>bogdanServlet</servlet-name>-->
+<!--        <servlet-class>com.example.webtest2.BogdanServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>bogdanServlet</servlet-name>-->
+<!--        <url-pattern>/bogdanServlet</url-pattern>-->
+<!--    </servlet-mapping>-->
+</web-app>

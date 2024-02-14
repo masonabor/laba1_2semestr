@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:property-placeholder location="classpath:laba.properties"/>
+
+    <bean id="yurii" class="com.example.webtest2.Person">
+        <property name="name" value="${yurii.name}"/>
+        <property name="age" value="${yurii.age}"/>
+        <property name="course" value="${yurii.course}"/>
+        <property name="telegram" value="${yurii.telegram}"/>
+        <property name="url" value="${yurii.url}"/>
+    </bean>
+
+    <bean id="vitalii" class="com.example.webtest2.Person">
+        <property name="name" value="${vitalii.name}"/>
+        <property name="age" value="${vitalii.age}"/>
+        <property name="course" value="${vitalii.couse}"/>
+        <property name="telegram" value="${vitalii.telegram}"/>
+        <property name="url" value="${vitalii.url}"/>
+    </bean>
+
+    <bean id="bogdan" class="com.example.webtest2.Person">
+        <property name="name" value="${bogdan.name}"/>
+        <property name="age" value="${bogdan.age}"/>
+        <property name="course" value="${bogdan.course}"/>
+        <property name="telegram" value="${bogdan.telegram}"/>
+        <property name="url" value="${bogdan.url}"/>
+    </bean>
+
+
+
+
+</beans>
